@@ -4,7 +4,7 @@ import csv
 
 source_dataset_folder = "D:\\ucioba\\PD\\lab_2\\dataset"
 
-destination_dataset_folder = "D:\\ucioba\\PD\\lab_3\\new_dataset"
+destination_dataset_folder = "D:\\ucioba\\PD\\lab_3\\modified_dataset"
 
 class_labels = {
     "leopard": "Leopard",
