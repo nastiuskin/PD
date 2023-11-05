@@ -28,21 +28,10 @@ def get_next_instance(class_instances, label, used_instances):
     else:
         return None
 
-if __name__ == "__main__":
     root_directory = "D:\\ucioba\\PD\\lab_2\\dataset"
 
     instances = create_class_instances_from_directory(root_directory)
     
     used_instances = set()
 
-    next_leopard_instance = get_next_instance(instances, "leopard", used_instances)
-    print("Next leopard instance:", next_leopard_instance)
-    
-    next_tiger_instance = get_next_instance(instances, "tiger", used_instances)
-    print("Next tiger instance:", next_tiger_instance)
-    
-    next_undefined_instance = get_next_instance(instances, "undefined", used_instances)
-    print("Next undefined class instance:", next_undefined_instance)
-
-    next_tiger_instance = get_next_instance(instances, "tiger", used_instances)
-    print("Next tiger instance:", next_tiger_instance)
+   
